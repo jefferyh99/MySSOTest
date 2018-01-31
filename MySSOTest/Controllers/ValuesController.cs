@@ -7,6 +7,7 @@ using System.Web.Http;
 
 namespace MySSOTest.Controllers
 {
+    //[AllowAnonymous]
     [Authorize]
     public class ValuesController : ApiController
     {
